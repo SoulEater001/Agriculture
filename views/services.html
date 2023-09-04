@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="../static/base.css">
+    <link rel="stylesheet" href="../static/services.css">
+    <title>FarmEasy</title>
+    <script src="/static/index.js"></script>
+</head>
+
+<Body>
+    <nav>
+        <ul id="navbar">
+            <li class="item"><a class="active" href="/">Home</a></li>
+            <li class="item"><a href="/Community">Community</a></li>
+            <li class="item"><a href="/Login">Login</a></li>
+            <li class="item"><a href="/Services">Services</a></li>
+            <li class="item"><a href="/Food">Food Security</a></li>
+        </ul>
+    </nav>
+    <section class="Seller">
+        <div class="container">
+            <div class="entryHead">
+                <h3>Enter Details About Machine Provider's</h3>
+            </div>
+            <div class="card">
+                <form action="/Food" method="post" id="entryform"> <input class="myinput" type="Name" name="Name"
+                        Placeholder="Enter Seller's Name"><input class="myinput" type="phone" name="Phone Number"
+                        Placeholder="Enter Seller's Number"><input class="myinput" type="address" name="Phone Number"
+                        Placeholder="Enter Seller's Address"><input class="myinput" type="text" name="machine"
+                        Placeholder="Enter Available Machines"><button class="btn" type="submit">Add</button></form>
+            </div>
+            <div class="entry">
+                <table class="content-table">
+                    <thead>
+                        <tr>
+                            <th>No. </th>
+                            <th>Name</th>
+                            <th>Available Machine</th>
+                            <th>Address</th>
+                            <th>Number</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>BR Jcb Tractor</td>
+                            <td>JCB Tractor </td>
+                            <td>Durg Chamdhkhuri</td>
+                            <td>7947107141</td>
+                        </tr>
+                        <tr class="active-row">
+                            <td>2 </td>
+                            <td>Mithlesh TTractor</td>
+                            <td>Tractor,Thressor</td>
+                            <td>Durg </td>
+                            <td>7947151986</td>
+                        </tr>
+                        <tr>
+                            <td>3 </td>
+                            <td>Goverdhan Sahu</td>
+                            <td>Tractor</td>
+                            <td>Mungali</td>
+                            <td>7947116384</td>
+                        </tr>
+                        <tr class="active-row">
+                            <td>4 </td>
+                            <td>Avinish Trasport</td>
+                            <td>Transport Truck</td>
+                            <td>Nagpur</td>
+                            <td>7447146270</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="container">
+            <div class="entryHead">
+                <h3>Enter Details About Fertilizer Seller's</h3>
+            </div>
+            <div class="card">
+                <form action="/Food" method="post" id="entryform"> <input class="myinput" type="Name" name="ame"
+                        Placeholder="Enter Seller's Name"><input class="myinput" type="phone" name="phone number"
+                        Placeholder="Enter Seller's Number"><input class="myinput" type="address" name="address"
+                        Placeholder="Enter Seller's Address"><button class="btn" type="submit">Add</button></form>
+            </div>
+            <div class="entry">
+                <table class="content-table">
+                    <thead>
+                        <tr>
+                            <th>No.</th>
+                            <th>Name</th>
+                            <th>Number </th>
+                            <th>Address </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>AkshatFertilizer</td>
+                            <td>9131283492 </td>
+                            <td>Gogaon industrial area infront of essar petropump ,Ring Rd Number2,Raipur(492003) </td>
+                        </tr>
+                        <tr class="active-row">
+                            <td>2 </td>
+                            <td>Kishan Fertilizer</td>
+                            <td>9431269111 </td>
+                            <td>Jain Mandir Rd, Karmchari Nagar , New police line, Vidya Nagar, Durg , Chattisgarh
+                                (491001) </td>
+                        </tr>
+                        <tr>
+                            <td>3 </td>
+                            <td>Lucky Krishi Kendra</td>
+                            <td>7489859572 </td>
+                            <td>Gol Bazar , Rajnandgao,(491441) </td>
+                        </tr>
+                        <tr class="active-row">
+                            <td>4 </td>
+                            <td>Naveen Krishi Kendra</td>
+                            <td>9559021234 </td>
+                            <td>Main Rd,near Bilasa Chowk , Shanichari Bazar , bilaspur(495001) </td>
+                        </tr>
+                        <tr>
+                            <td>5 </td>
+                            <td>Vardhman beej bhandar</td>
+                            <td>7024331331 </td>
+                            <td>Raipur Naka ,Kawardha(491995) </td>
+                        </tr>
+                        <tr class="active-row">
+                            <td>6 </td>
+                            <td>Krishi Vistar Kendra</td>
+                            <td>9329812024 </td>
+                            <td>Address </td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>Rathi Tradar</td>
+                            <td>9424103302 </td>
+                            <td>Mandi-road,Gyan para rd,balod </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="container">
+            <div class="entryHead">
+                <h3>Enter Details About Crop Buyer's</h3>
+            </div>
+            <div class="card">
+                <form action="/Food" method="post" id="entryform"> <input class="myinput" type="Name" name="Name"
+                        Placeholder="Enter Crop's Name"><input class="myinput" type="address" name="Address"
+                        Placeholder="Enter Buyer's Address"><input class="myinput" type="number" name="min"
+                        Placeholder="Enter min price"><input class="myinput" type="number" name="max"
+                        Placeholder="Enter max price"><button class="btn" type="submit">Add</button></form>
+            </div>
+            <div class="entry">
+                <table class="content-table">
+                    <thead>
+                        <tr>
+                            <th>No.</th>
+                            <th>Crop </th>
+                            <th>Address </th>
+                            <th>Min Price(Per Quintal) </th>
+                            <th>Max Price(Per Quintal)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1 </td>
+                            <td>Peddy </td>
+                            <td>Raipur </td>
+                            <td>1950</td>
+                            <td>1955 </td>
+                        </tr>
+                        <tr class="active-row">
+                            <td>- </td>
+                            <td>Peddy </td>
+                            <td>Durg </td>
+                            <td>1648</td>
+                            <td>1653 </td>
+                        </tr>
+                        <tr>
+                            <td>- </td>
+                            <td>Peddy </td>
+                            <td>Raigarh </td>
+                            <td>2040</td>
+                            <td>2040 </td>
+                        </tr>
+                        <tr class="active-row">
+                            <td>- </td>
+                            <td>Peddy </td>
+                            <td>Bilaspur </td>
+                            <td>1650</td>
+                            <td>1800 </td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Wheat </td>
+                            <td>Raipur </td>
+                            <td>2200</td>
+                            <td>2200 </td>
+                        </tr>
+                        <tr class="active-row">
+                            <td>- </td>
+                            <td>Wheat </td>
+                            <td>Durg </td>
+                            <td>900</td>
+                            <td>1000 </td>
+                        </tr>
+                        <tr>
+                            <td>- </td>
+                            <td>Wheat </td>
+                            <td>Raigarh </td>
+                            <td>2000</td>
+                            <td>2000 </td>
+                        </tr>
+                        <tr class="active-row">
+                            <td>- </td>
+                            <td>Wheat </td>
+                            <td>Bilaspur </td>
+                            <td>2165</td>
+                            <td>2165 </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+    <footer id="footer">Copyright 2019 FarmEasy | All Rights Reserved</footer>
+</Body>
+
+</html>
